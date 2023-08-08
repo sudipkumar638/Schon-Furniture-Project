@@ -79,7 +79,7 @@ function App() {
             <Carousal data={filteredData}></Carousal>
             </div>
 
-            <div>
+            <div className="banner">
               <ThreeBlockBanner></ThreeBlockBanner>
             </div>
         

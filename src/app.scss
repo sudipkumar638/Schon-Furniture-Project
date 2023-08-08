@@ -9,7 +9,7 @@
         font-size: 2rem;
 padding-bottom: 2rem;
         padding: 2rem 15%;
-        margin-top: 3rem;
+        padding-top: 3rem;
         font-weight: 800;
         background-color: rgb(241, 241, 241);
         @media (max-width:800px)
@@ -29,6 +29,9 @@ padding-bottom: 2rem;
         height:fit-content;
        background-color: rgb(241, 241, 241);
       
+    }
+    .banner{
+        background-color: #f1f1f1;;
     }
   
 }
