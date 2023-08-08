@@ -1,0 +1,67 @@
+.navbarContainer{
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+  
+    font-size: 1.5rem;
+      
+        .logo{
+
+        }
+
+        .menus{
+
+          
+        
+            ul{
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        
+                .hamburgur{
+                    display: none;
+                    @media (max-width:1000px)
+                        {
+                            display: inline;
+                        }
+                        @media (max-width:400px)
+                        {
+                            margin-top: 0.5rem;
+                        }
+                     
+                }
+                li{
+                     margin-left: 1.5rem;
+
+                     &.mod{
+
+                        @media (max-width:1000px)
+                        {
+                            display: none;
+                        }
+                       
+                     }
+
+                     &.search{
+                        @media (max-width:400px)
+                        {
+                            display: none;
+                        }
+                      
+                     }
+
+                     img{
+                        height:1.8rem;
+                        
+                        @media (max-width:400px)
+                        {
+                            display: none;
+                        }
+                     }
+                }
+            }
+        }
+    }
+}

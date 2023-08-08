@@ -1,0 +1,238 @@
+.firstSectionContainer{
+    height:120rem;
+   
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    gap: 1rem;
+    padding:2rem 15%;
+
+
+
+    @media (max-width:1300px)
+    {
+        padding:2rem 5%;
+    }
+
+    @media (max-width:1000px)
+    {
+        height: fit-content;
+        padding:2rem 5%;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 60rem; 
+        grid-auto-rows: 60rem;
+      
+
+
+    }
+
+
+    @media(max-width:600px)
+    {
+        height: fit-content;
+        padding:2rem 5%;
+        grid-template-columns:1fr;
+        grid-template-rows: 60rem ; 
+        grid-auto-rows: 60rem;
+        grid-auto-columns: 1fr;
+    }
+  
+
+
+
+    .firstpart{
+    
+        grid-column: 1/2;
+        background: url("https://htmlbeans.com/html/schon/images/banner/img05.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        grid-row: span 2;
+         display: flex;
+         justify-content: flex-start;
+         align-items:center;
+         padding:4rem 3rem;
+         @media (max-width:1000px)
+         {
+            grid-row:1/2;
+         }
+        
+         
+        .textsection{
+
+
+
+            color:white;
+            width: 80%;
+            letter-spacing:0.2rem;
+
+            .banner{
+                background-color: #535353;
+                color:white;
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+                width: fit-content;
+                font-size: 1rem;
+               
+            }
+            .price{
+                font-size: 4rem;
+                font-weight: bold;
+            }
+           
+            h1{
+                font-size: 4rem;
+            }
+            p{
+                 font-size: 1.5rem;
+                 line-height: 2rem;
+            }
+
+            
+        
+           
+        }
+        
+       
+       
+    }
+
+    .secondpart{
+    
+        
+     
+       
+        @media(min-width:700px)
+        {
+            grid-column: 2/-1;
+        }
+      @media (min-width:1000px)
+      {
+        grid-row: span 2;
+        grid-column: 2/4;
+      }
+        .textsection{
+
+            padding: 4rem 3rem;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         height:80%;
+         position: relative;
+       
+            .uppersection{
+
+                p{
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    color: white;
+                    letter-spacing:0.2rem;
+                }
+                h2{
+                    font-size: 3rem;
+                    color: white;
+                }
+            }
+
+            .lowersection{
+                font-size: 2rem;
+                color: white;
+            }
+            .bluecircle{
+                position: absolute;
+                right: 5rem;
+                background-color: #238da0;
+                bottom:5rem;
+                height:10rem;
+                width:10rem;
+                border-radius: 8rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 2rem;
+                color: white;
+                font-weight: bold;
+                
+            }
+
+           
+        }
+       
+        background: url("https://htmlbeans.com/html/schon/images/banner/img06.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+       
+       
+        
+    }
+    .thirdpart{
+       
+        background: url("https://htmlbeans.com/html/schon/images/banner/img07.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom right;
+
+        .textsection{
+            display: flex;
+            height:80%;
+            align-items: flex-end;
+            flex-direction:column;
+            padding: 1rem;
+            justify-content: space-between;
+            color: grey;
+            
+            .uppersection{
+                h2{
+                    font-size: 2rem;
+                }
+            }
+        .price{
+            font-size: 2.5rem;
+            color: #573737;
+            margin-bottom: 2rem;
+        }
+            .shopbutton{
+                font-size: 1.2rem;
+                background-color: #2e2d32;
+                color: white;
+                padding: 1rem;
+            }
+        }
+      
+    }
+    .forthpart{
+        
+        background: url("https://htmlbeans.com/html/schon/images/banner/img08.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+
+    }
+    .fifthpart{
+        background-color: #8f9e99;
+        grid-column: 1/2;
+     
+    }
+    .sixthpart{
+       
+     
+       
+    grid-column: 2/-1;
+    grid-row: 3/-1;
+        @media (max-width:1000px)
+        {
+            grid-row: 4;
+            grid-column: 1/-1;
+        }
+      @media(max-width:800px)
+      {
+         display: none;
+      }
+     
+        
+    }
+    .seventhpart{
+       background-color: #c9417a;
+      
+       
+    }
+}
