@@ -7,7 +7,7 @@ const FirstSection = () => {
             <div className='firstpart'>
                <div className='textsection'>
                 <p className='banner'>FURNITURE DESIGN IDEAS</p>
-                 <h1>New Collection</h1>
+                 <h1>New Collections</h1>
                  <p>Consectetur adipisicing elit. Beatae accusamus, optio, repellendus inventore</p>
                  <p className='price'>$ 79.00</p>
                </div>
