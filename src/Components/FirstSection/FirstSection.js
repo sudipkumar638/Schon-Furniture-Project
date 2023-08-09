@@ -25,7 +25,7 @@ const FirstSection = () => {
                     <div className='bluecircle'>
                         <div> 
                         $ 499.00
-
+                         
                         </div>
                       
                     </div>
@@ -47,16 +47,40 @@ const FirstSection = () => {
                 </div>
             </div>
             <div className='forthpart'>
-4
+            <div className='thirdTextSection'>
+                 <h2>CHAIR WITH ARMRESTS</h2>
+                 <div className='thirdprice'>
+                     $99.00
+                     <div className='hurry'>Hurry Up!</div>
+                 </div>
+            </div>
             </div>
             <div className='fifthpart'>
-5
+             <div className='fifthTextSection'>
+                <div className='fifthheading'>
+                <h2>Chairs</h2>
+                <h1>ZIO DINING CHAIR</h1>
+                </div>
+                <div className='shopnow'>
+                   Shop Now
+                </div>
+              
+
+             </div>
             </div>
             <div className='sixthpart'>
 <PauseOnHover></PauseOnHover>
             </div>
             <div className='seventhpart'>
-7
+              <div className='seventhTextSection'>
+              <div className='seventhheading'>
+                <h2>Accessories / Lighting</h2>
+                <h1>TOTEM FLOOR LAMP</h1>
+               </div>
+                <div className='shopnow'>
+                   Shop Now
+                </div>
+              </div>
             </div>
            
           

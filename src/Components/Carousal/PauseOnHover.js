@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
 import "./pauseonhover.scss"
+import CarousalImagePart from '../CarousalImagePart/CarousalImagePart';
 const PauseOnHover = () => {
 
     var settings = {
@@ -18,24 +19,16 @@ const PauseOnHover = () => {
          <div>
       
         <Slider {...settings}>
-          <div className='bye'>
-            <img className='hello' src='https://htmlbeans.com/html/schon/images/sliders/img10.jpg'></img>
+          <div className='pauseOnHoverContainer'>
+          <CarousalImagePart smallHeading="FURNITURE DESIGNS IDEAS" bigheadingw="Upholstered fabric" bigheading="Counter stool" description="Consectetur adipisicing elit. Beatae accusamus, optio, repellendus inventore" imageLink="https://htmlbeans.com/html/schon/images/sliders/img10.jpg"></CarousalImagePart>
+
           </div>
-          <div className='bye'>
-            <img className='hello' src='https://htmlbeans.com/html/schon/images/sliders/img10.jpg'></img>
+          <div className='pauseOnHoverContainer'>
+          <CarousalImagePart smallHeading="FURNITURE DESIGNS IDEAS" bigheadingw="Upholstered fabric" bigheading="Counter stool" description="Consectetur adipisicing elit. Beatae accusamus, optio, repellendus inventore" imageLink="https://htmlbeans.com/html/schon/images/sliders/img08.jpg"></CarousalImagePart>
+
           </div>
-          <div className='bye'>
-            <img className='hello' src='https://htmlbeans.com/html/schon/images/sliders/img10.jpg'></img>
-          </div>
-          <div className='bye'>
-            <img className='hello' src='https://htmlbeans.com/html/schon/images/sliders/img10.jpg'></img>
-          </div>
-          <div className='bye'>
-            <img className='hello' src='https://htmlbeans.com/html/schon/images/sliders/img10.jpg'></img>
-          </div>
-          <div className='bye'>
-            <img className='hello' src='https://htmlbeans.com/html/schon/images/sliders/img10.jpg'></img>
-          </div>
+        
+
         </Slider>
       </div>
     </div>
